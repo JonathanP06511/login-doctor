@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  login-doctor:
+   build: ../login-doctor
+   ports:
+     - 5010
+
+  
